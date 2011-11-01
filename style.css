@@ -1,0 +1,143 @@
+html {
+	background: #d9d9d9;
+}
+
+body {
+	background: #fff;
+	border: 1px solid #aaa;
+	color: #333;
+	font: normal 87.5%/1.5em Helvetica;
+	margin: 40px auto;
+	padding: 0 25px;
+
+	width: 65ex;
+
+	box-shadow: 0 1px 3px #777;
+}
+
+mark {
+
+	background: rgba(0, 100, 255, 0.65);
+	border: 1px solid rgb(0, 100, 255);
+	border-radius: 5px;
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.25);
+	color: #fff;
+
+	padding: 1px 0.25em;
+	position: relative;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.25);
+}
+
+mark.issue {
+	background: rgba(255, 0, 0, 0.65);
+	border: 1px solid rgb(255, 100, 0);
+}
+
+mark.notice {
+	color: #222;
+	background: rgba(255, 180, 0, 0.65);
+	border: 1px solid rgb(255, 180, 0);
+}
+
+mark.notice cite {
+	color: #fff;
+}
+
+cite {
+	background: #888;
+	border: 1px solid #444;
+	border-radius: 200px;
+
+	cursor: pointer;
+
+	font-size: 9px;
+	font-style: normal;
+	font-family: monospace;
+
+	height: 12px; line-height: 12px;
+	width: 12px;
+	text-align: center;
+
+	position: absolute;
+	top: -8px;
+	left: -8px;
+
+}
+
+.selected cite, cite:hover {
+	font-weight: bold;
+	background: #fa6;
+	border-color: #c73;
+	box-shadow: 0 1px 10px rgba(150,50,0, 0.8);
+}
+
+.comment-popup {
+	display: none;
+
+	font-size: 87.5%;
+
+	background: rgba(50, 50, 50, 0.95);
+	border: 1px solid rgb(0, 0, 0);
+	border-radius: 5px;
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.25);
+	color: #fff;
+
+	padding: 7px 10px;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.25);
+	text-align: left;
+
+	z-index: 90;
+}
+
+.comment-popup p:focus {
+	color: #222;
+	background: #fefefe;
+	text-shadow: none;
+}
+
+.selected .comment-popup {
+	display: block;
+	position: absolute;
+	width: 300px;
+	right: 0;
+}
+
+menu.annotation {
+	background: #fefefe;
+	border: 1px solid #aaa;
+	border-top: 0;
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	display: none;
+	text-align: left;
+	width: 200px;
+
+
+	box-shadow: 0 1px 3px #777;
+
+	z-index: 100;
+}
+
+menu.annotation ul {
+	padding: 0;
+	margin: 0;	
+}
+
+menu.annotation ul li {
+	border-top: 1px solid #d9d9d9;
+	cursor: pointer;
+	padding: 3px 5%;
+	width: 90%;
+	display: block;
+	line-height: 25px;
+}
+
+menu.annotation ul li:hover {
+	background: #d9d9d9;
+	border-color: #aaa;
+}
+
+p {
+	text-align: justify;
+}
