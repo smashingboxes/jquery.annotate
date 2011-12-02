@@ -12,6 +12,7 @@ Example usage with default values:
 $(document).annotate({
 
   defaultComment : 'Please enter a comment',
+  
   menuItems: {
     comment: 'Comment',
     issue: 'Issue',
