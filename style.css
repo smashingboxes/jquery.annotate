@@ -17,19 +17,19 @@ body {
 
 mark {
 	  background: rgba(0, 100, 255, 0.3);
-    border: 1px dashed rgb(0, 100, 255);
+    border-bottom: 1px dashed rgb(0, 100, 255);
 	  position: relative;
 }
 
 mark.issue {
 	  background: rgba(255, 0, 0, 0.3);
-	  border-bottom: 1px dashed rgb(255, 100, 0);
+	  border-color: rgb(255, 100, 0);
 }
 
 mark.notice {
 	  color: #222;
 	  background: rgba(255, 180, 0, 0.3);
-	  border: 1px dashed rgb(255, 180, 0);
+	  border-color: rgb(255, 180, 0);
 }
 
 mark.notice cite {
