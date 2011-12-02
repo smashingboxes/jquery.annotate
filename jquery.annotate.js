@@ -1,6 +1,6 @@
 /*
  * jQuery Annotate
-  *
+ *
  * A simple way to add Google Document style annotations to any DOM element
  * version 0.7
  * 
