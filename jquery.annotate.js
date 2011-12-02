@@ -1,8 +1,16 @@
-// jQuery Plugin Boilerplate
-// A boilerplate for kick-starting jQuery plugins development
-// version 1.3, May 07th, 2011
-// by Stefan Gabos
-// with help from Roger Padilla, Shinya, JohannC, Steven Black, Rob Lifford
+/*
+ * jQuery Annotate
+  *
+ * A simple way to add Google Document style annotations to any DOM element
+ * version 0.7
+ * 
+ * Author: Nate Hunzaker
+ * Copyright (c) 2011 Nate Hunzaker
+ *
+ * Licensed under the MIT License:
+ * http://www.opensource.org/licenses/mit-license.php
+ *
+ */
 
 (function($) {
 
